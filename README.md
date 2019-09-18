@@ -1,7 +1,7 @@
 #Project Name:personal-form
 
-#Description:This is an application which help us to automate and complete a form in a website.In this projectI used Java,Selenium and
-created a project with Maven.My development enviroment is Eclipse IDE.
+#Description:This is an application which help us to automate and complete a form in a website.In this project I used Java,Selenium and
+built a project with Maven.My development enviroment is Eclipse IDE.
 
 #Requirements:
 
@@ -17,8 +17,8 @@ step we create a new Maven project in Eclipse and open pom.xml file.On this file
 			<version>3.141.59</version>
 		</dependency>
 		
- We can find this dependency on this link  https://www.seleniumhq.org/download/maven.jsp.Also before we start development 
- of project we download Junit from Eclipse Market place.Source code exists in upload classes in my uploaded file 
+ We can find this dependency on this link  https://www.seleniumhq.org/download/maven.jsp. Also before we start development 
+ of project we download JUnit from Eclipse Market place.Source code exists in upload classes in my uploaded file 
  personal-form on github.This application runs in google Chrome and is necessary to have download chrome drivers.
  HTML code for my form exists on file Personal_Form.html.Application runs with 3 ways:
  
@@ -27,11 +27,13 @@ step we create a new Maven project in Eclipse and open pom.xml file.On this file
  3.In Selenium IDE(we must install selenium plugin for Chrome) and we build a new test.
  
  Installations required:
- -Java SDK 
+ -Java SDK version 12.0.2
  -Maven
  -Eclipse IDE
  -Google Chrome drivers
  -TestNG
+ -Selenium dependency for pom.xml file
+ -JUnit
  
  
     
