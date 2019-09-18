@@ -18,6 +18,7 @@ step we create a new Maven project in Eclipse and open pom.xml file.On this file
 		</dependency>
  We can find this dependency on this link  https://www.seleniumhq.org/download/maven.jsp.Also before we start development 
  of project we download Junit from Eclipse Market place.Source code exists in upload classes in my uploaded file 
- personal-form on github.
+ personal-form on github.This application runs in google Chrome and is necessary to have download chrome drivers.
+ HTML code for my form exists on file Personal_Form.html.
  
     
