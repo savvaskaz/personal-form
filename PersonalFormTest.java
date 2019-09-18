@@ -35,7 +35,7 @@ public class PersonalFormTest {
     driver.quit();
   }
   @Test
-  public void personalForm() {
+  public void personalForm() throws InterruptedException {
     driver.get("https://donnish-accrual.000webhostapp.com/Personal_Form.html");
     driver.manage().window().setSize(new Dimension(1390, 1010));
     driver.findElement(By.id("ts_first_name")).click();
@@ -45,5 +45,6 @@ public class PersonalFormTest {
     driver.findElement(By.id("ts_address")).click();
     driver.findElement(By.id("ts_address")).sendKeys("Thessaloniki");
     driver.findElement(By.name("Submit1")).click();
+    Thread.sleep(10000);
   }
 }
