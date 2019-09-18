@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Automation Form</title>
+<style type="text/css">
+.style1 {
+	font-size: x-large;
+}
+</style>
+</head>
+
+<body>
+	<p class="style1">
+		<strong>Hello Automation Testing</strong>
+	</p>
+	<form method="get">
+		<table width="350px" border="0" align="center">
+			<tr>
+				<td>First Name</td>
+				<td><input name="ts_first_name" type="text" id="ts_first_name"
+					style="width: 250px" /></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input name="ts_last_name" type="text" id="ts_last_name"
+					style="width: 250px" /></td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><textarea name="ts_address" id="ts_address"
+						style="width: 250px; height: 102px"></textarea></td>
+			</tr>
+			<tr>
+				<td>Nationality</td>
+				<td><select name="ts_country" id="ts_country"
+					style="width: 250px">
+						<option value="0">USA</option>
+						<option value="1">India</option>
+						<option value="2">Germany</option>
+						<option value="3">France</option>
+						<option value="4">Italy</option>
+						<option value="3" selected="selected">Greece</option>
+
+				</select></td>
+			</tr>
+			<tr>
+				<td style="height: 25px">Gender</td>
+				<td style="height: 25px"><p>
+					<label> <input type="radio" name="ts_gender" value="male" />Male
+					
+					</label> <label> <input type="radio" name="ts_gender"
+					value="female" /> Female</label> <br />
+					</p></td>
+			</tr>
+			<tr>
+				<td>Interest</td>
+				<td><input name="ts_checkbox1" type="checkbox"
+					id="ts_checkbox1" value="cricket" /> Cricket <input
+					name="ts_checkbox2" type="checkbox" id="ts_checkbox2"
+					value="football" /> Football <input name="ts_checkbox3"
+					type="checkbox" id="ts_checkbox3" value="checkbox" /> Hockey</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input name="Submit1" type="submit" value="submit"
+					style="width: 73px" /></td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>
